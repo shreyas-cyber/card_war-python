@@ -1,6 +1,5 @@
 from random import shuffle
 
-from django.http import response
 class Card:
     suits = ['spades', 'heart', 'diamond', 'club']
     values = [None, None, '2', '3', '4', '5', '6', '7',
